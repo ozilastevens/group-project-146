@@ -4,12 +4,16 @@ body {
 	padding: 0px;
 	font-family: "Trade Gothic W01",Arial,Helvetica,sans-serif;
 }
+a {
+	color: #A32638;
+}
+a:visited{
+	color: #7A548B;
+}
 #header{
 	width: 100%;
 	height: auto;
 	background-color: white;
-	padding-left: 2%;
-	padding-right: 2%;
 	border-bottom-style: solid;
 	border-color:#E4E5E6;
 	border-width: 2px;
@@ -31,7 +35,7 @@ nav img {
 	width: auto;
 	height: 100px;
 	display: block;
-	margin-right: 15px; 
+	margin-left: 2%; 
 }
 nav ul {
 	list-style-type: none;
@@ -56,6 +60,9 @@ nav ul li a {
     text-align: center;
     text-decoration: none;
 }
+nav ul li a:visited {
+	color: black;
+}
 nav ul li:hover{
 	background-color: #A32638;
 	color: white;
@@ -79,7 +86,9 @@ nav ul li:hover{
 	border-radius: 5px;
 	margin: 10px;
 	padding: 5px;
+	width: 100%;
 	max-width: 900px;
+	background-color: #E4E5E6;
 }
 h1, h2{
 	color: #A32638;
@@ -92,5 +101,6 @@ h1, h2{
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	background-color: #9A989A;
+	background-color: #A32638;
+	color: white;
 }
