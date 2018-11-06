@@ -90,6 +90,13 @@ nav ul li:hover{
 	max-width: 900px;
 	background-color: #E4E5E6;
 }
+.section ul {
+	list-style-type: square;
+}
+.section ul li {
+
+}
+
 h1, h2{
 	color: #A32638;
 }
@@ -104,3 +111,5 @@ h1, h2{
 	background-color: #A32638;
 	color: white;
 }
+
+
