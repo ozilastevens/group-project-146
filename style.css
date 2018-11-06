@@ -1,0 +1,91 @@
+body {
+	background-color: white;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Trade Gothic W01",Arial,Helvetica,sans-serif;
+}
+#header{
+	width: 100%;
+	height: auto;
+	background-color: white;
+	padding-left: 2%;
+	padding-right: 2%;
+	border-bottom-style: solid;
+	border-color:#E4E5E6;
+	border-width: 2px;
+	font-size: 20pt;
+}
+nav {
+	width: 98%;
+	height: 100%;
+	display: flex;
+	padding-right: 10px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+	font-weight: bold;
+}
+nav img {
+	width: auto;
+	height: 100px;
+	display: block;
+	margin-right: 15px; 
+}
+nav ul {
+	list-style-type: none;
+    margin-left: 10px;
+    padding: 0;
+    width: auto;
+    height: 100%;
+    background-color: white;
+    color: black;
+    display: inline-flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+nav ul li {
+    padding: 16px;
+}
+nav ul li a {
+	align-self: flex-start;
+	display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+nav ul li:hover{
+	background-color: #A32638;
+	color: white;
+}
+#sidebar{
+	width: 25%;
+	min-height: 85%;
+	background-color: yellow;
+}
+#content{
+	min-width: 75%;
+	max-width: 100%;
+	min-height: 85%;
+}
+section {
+	border-color: #9A989A;
+	border-style: solid;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 5px;
+}
+h1 {
+	padding-left: 15px;
+	padding-right: 5px;
+}
+
+
+
+#footer{
+	width: 100%;
+	align-self: flex-end;
+	background-color: 
+}
