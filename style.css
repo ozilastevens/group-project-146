@@ -67,10 +67,10 @@ nav ul li:hover{
 }
 #content{
 	width: 100%;
-	min-height: 1em;
+	min-height: 80vh;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 }
 .section {
@@ -81,7 +81,9 @@ nav ul li:hover{
 	padding: 5px;
 	max-width: 900px;
 }
-
+h1, h2{
+	color: #A32638;
+}
 
 
 
