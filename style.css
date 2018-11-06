@@ -66,26 +66,29 @@ nav ul li:hover{
 	background-color: yellow;
 }
 #content{
-	min-width: 75%;
-	max-width: 100%;
-	min-height: 85%;
+	width: 100%;
+	min-height: 1em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
-section {
+.section {
 	border-color: #9A989A;
 	border-style: solid;
 	border-radius: 5px;
 	margin: 10px;
 	padding: 5px;
+	max-width: 900px;
 }
-h1 {
-	padding-left: 15px;
-	padding-right: 5px;
-}
+
 
 
 
 #footer{
+	position
 	width: 100%;
-	align-self: flex-end;
-	background-color: 
+	display: flex;
+	justify-content: center;
+	background-color: #9A989A;
 }
