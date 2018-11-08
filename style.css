@@ -120,3 +120,12 @@ h1, h2{
 	justify-content: space-between;
 	align-items: center;
 }
+
+@media screen and (max-width: 600px){
+	nav{
+		flex-direction: column;
+	}
+	nav ul{
+		flex-direction: column;
+	}
+}
