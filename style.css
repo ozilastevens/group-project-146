@@ -125,6 +125,9 @@ h1, h2{
 	nav{
 		flex-direction: column;
 	}
+	nav img{
+		margin-left: 0px;
+	}
 	nav ul{
 		flex-direction: column;
 	}
