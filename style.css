@@ -92,9 +92,8 @@ nav ul li:hover{
 .section ul {
 	list-style-type: square;
 }
-.section ul li {
 
-}
+
 
 h1, h2{
 	color: #A32638;
@@ -128,4 +127,9 @@ h1, h2{
 	nav ul{
 		flex-direction: column;
 	}
+}
+
+/* Made this specifically for the scheduling page. */
+.section img{
+	width: 100%;
 }
