@@ -39,37 +39,71 @@
 
 		<div class="section">
 			<h2>Submit a Request Form</h2>
-			<p> Do you want more information about Cooperative Education? Fill out this form for specific information about co-op opportunities and more directed toward you major.
+			<p> Do you want more information about Cooperative Education? Fill out this form for specific information about co-op opportunities and more directed toward you major.</p>
+			<div class='section'>
 				<form>
-					<label for="name">Enter your name:          </label><input type="text"></input><br>
-					<label for="id">  Enter your Stevens ID:    </label><input type="text"></input><br>
-					<label for="email">Enter your Stevens email: </label><input type="email"></input><br>
-					<label for="major">Select your Major:			</label>
-					<select name="major">
-					  <option value="default">Select a Major</option>
-					  <option value="divide">----------------------------------------</option>
-					  <option value="bioeng">Bioengineerg and Biomedical Engineering</option>
-					  <option value="bioinf">Bioinformatics</option>
-					  <option value="chemeng">Chemical Engineering</option>
-					  <option value="chem">Chemistry</option>
-					  <option value="civil">Civil Engineering</option>
-					  <option value="compeng">Computer Engineering</option>
-					  <option value="compsci">Computer Science</option>
-					  <option value="cysec">Cybersecurity</option>
-					  <option value="eleceng">Electrical and Electronics Engineering</option>
-					  <option value="eng">Engineering Undecided</option>
-					  <option value="engphys">Engineering Physics</option>
-					  <option value="enviro">Environmental Engineering</option>
-					  <option value="indman">Industrial and Engineering Management</option>
-					  <option value="mecheng">Mechanical Engineering</option>
-					  <option value="phys">Physics</option>
-					</select>
-					<br>
-					<label>Enter any questions you have here:</label><br>
-					<textarea name="questions" rows="10" cols="50"></textarea><br>
-					<input type="submit"></input>
+					<div class='row-item'>
+						<div class='width-25'>
+							<label for="name">Enter your name:</label>
+						</div>
+						<div class='width-75'>
+							<input name='name' type="text"></input>
+						</div>
+					</div>
+					<div class='row-item'>
+						<div class='width-25'>
+							<label for="id">  Enter your Stevens ID:</label>
+						</div>
+						<div class='width-75'>
+							<input name='id' type="number"></input>
+						</div>
+					</div>
+					<div class='row-item'>
+						<div class='width-25'>
+							<label for="email">Enter your Stevens email:</label>
+						</div>
+						<div class='width-75'>
+							<input name='email' type="email"></input>
+						</div>
+					</div>
+					<div class='row-item'>
+						<div class='width-25'>
+							<label for="major">Select your Major:</label>
+						</div>
+						<div class='width-75'>
+							<select name="major">
+							  <option value="default">Select a Major</option>
+							  <option value="divide">----------------------------------------</option>
+							  <option value="bioeng">Bioengineerg and Biomedical Engineering</option>
+							  <option value="bioinf">Bioinformatics</option>
+							  <option value="chemeng">Chemical Engineering</option>
+							  <option value="chem">Chemistry</option>
+							  <option value="civil">Civil Engineering</option>
+							  <option value="compeng">Computer Engineering</option>
+							  <option value="compsci">Computer Science</option>
+							  <option value="cysec">Cybersecurity</option>
+							  <option value="eleceng">Electrical and Electronics Engineering</option>
+							  <option value="eng">Engineering Undecided</option>
+							  <option value="engphys">Engineering Physics</option>
+							  <option value="enviro">Environmental Engineering</option>
+							  <option value="indman">Industrial and Engineering Management</option>
+							  <option value="mecheng">Mechanical Engineering</option>
+							  <option value="phys">Physics</option>
+							</select>
+						</div>
+					</div>
+					<div class='row-item'>
+						<label for='questions'>Enter any questions you have here:</label>
+					</div>
+					<div class='row-item'>
+						<textarea name="questions" rows="10"></textarea>
+					</div>
+					<!-- TODO Change submit to POST -->
+					<div class='row-item'>
+						<input type="submit"></input>
+					</div>
 				</form>
-			</p>
+			</div>
 		</div>
 	</div>
 
