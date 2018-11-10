@@ -97,9 +97,8 @@ nav ul li:hover{
 .section ul {
 	list-style-type: square;
 }
-.section ul li {
 
-}
+
 
 h1, h2{
 	color: #A32638;
@@ -207,11 +206,15 @@ input[type=number]::-webkit-outer-spin-button {
 	nav ul{
 		flex-direction: column;
 	}
-
-	.row-item{
+  .row-item{
 		flex-direction: column;
 	}
 	.width-25, .width-75{
 		width: 100%;
 	}
+}
+
+/* Made this specifically for the scheduling page. */
+.section img{
+	width: 100%;
 }
