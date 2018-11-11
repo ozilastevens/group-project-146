@@ -40,13 +40,13 @@
 			<h2>Submit a Request Form</h2>
 			<p> Do you want more information about Cooperative Education? Fill out this form for specific information about co-op opportunities and more directed toward you major.</p>
 			<div class='section'>
-				<form>
+				<form method='POST'>
 					<div class='row-item'>
 						<div class='width-25'>
 							<label>Enter your name:</label>
 						</div>
 						<div class='width-75'>
-							<input name='name' type="text">
+							<input required name='name' type="text">
 						</div>
 					</div>
 					<div class='row-item'>
@@ -54,7 +54,7 @@
 							<label>  Enter your Stevens ID:</label>
 						</div>
 						<div class='width-75'>
-							<input name='id' type="number">	
+							<input required name='id' type="number">	
 						</div>
 					</div>
 					<div class='row-item'>
@@ -62,7 +62,7 @@
 							<label>Enter your Stevens email:</label>
 						</div>
 						<div class='width-75'>
-							<input name='email' type="email">
+							<input required name='email' type="email">
 						</div>
 					</div>
 					<div class='row-item'>
@@ -70,7 +70,7 @@
 							<label>Select your Major:</label>
 						</div>
 						<div class='width-75'>
-							<select name="major">
+							<select required name="major">
 							  <option value="default">Select a Major</option>
 							  <option value="divide">----------------------------------------</option>
 							  <option value="bioeng">Bioengineerg and Biomedical Engineering</option>
@@ -95,7 +95,7 @@
 						<label>Enter any questions you have here:</label>
 					</div>
 					<div class='row-item'>
-						<textarea name="questions" rows="10"></textarea>
+						<textarea required name="questions" rows="10"></textarea>
 					</div>
 					<!-- TODO Change submit to POST -->
 					<div class='row-item'>

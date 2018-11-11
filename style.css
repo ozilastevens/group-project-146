@@ -186,6 +186,10 @@ form {
 	width: 50%;
 	margin: 5px;
 }
+.width-46 {
+	width: 46%;
+
+}
 .small-logo{
 	max-height: 150px;
 	height: auto;
@@ -252,11 +256,13 @@ input[type=number]::-webkit-outer-spin-button {
 	}
   .row-item, .picture-grid{
 		flex-direction: column;
+		align-items: center;
+		margin: 0;
 	}
 	.width-25, .width-75 {
 		width: 100%;
 	}
-	.width-50{
+	.width-50, .width-48{
 		width: 90%;
 	}
 }
@@ -276,4 +282,7 @@ input[type=number]::-webkit-outer-spin-button {
 /* Made this specifically for the scheduling page. */
 .fill-width{
 	width: 100%;
+}
+.schedules .fake-inner {
+	height: auto;
 }
