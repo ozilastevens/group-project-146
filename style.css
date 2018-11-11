@@ -109,7 +109,21 @@ h1, h2{
 	background-color: white;
 	margin: auto;
 }
-
+.fake-inner{
+	border-style: solid;
+	border-radius: 5px;
+	border-color: #a32639;
+	background-color: white;
+	max-width: 900px;
+	padding: 5px;
+	margin: auto;
+	width: 95%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height:150px;
+}
 
 
 #footer{
@@ -131,7 +145,7 @@ h1, h2{
 	align-items: center;
 }
 
-/* Form Alignment */
+/* Form and Picture Alignment */
 form {
 	width: 100%;
 	display: flex;
@@ -144,12 +158,42 @@ form {
 	flex-wrap: nowrap;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	flex-basis: auto;
+}
+.row-item .section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.image-flex {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.row-item > div {
+	flex-grow: 1;
+}
+.row-item .section{
+	height: 100%;
 }
 .width-25 {
 	width: 25%;
 }
 .width-75{
 	width: 75%;
+}
+.width-50{
+	width: 50%;
+	margin: 5px;
+}
+.small-logo{
+	max-height: 150px;
+	height: auto;
+	width: auto;
+	max-width: 100%
+}
+.inline {
+	display: inline;
 }
 input, textarea, select {
 	width: 95%;
@@ -206,15 +250,30 @@ input[type=number]::-webkit-outer-spin-button {
 	nav ul{
 		flex-direction: column;
 	}
-  .row-item{
+  .row-item, .picture-grid{
 		flex-direction: column;
 	}
-	.width-25, .width-75{
+	.width-25, .width-75 {
 		width: 100%;
+	}
+	.width-50{
+		width: 90%;
 	}
 }
 
+.nodec{
+	text-decoration: none;
+	color: inherit;
+}
+.nodec:visited{
+	text-decoration: none;
+	color: inherit;
+}
+.nodec:active{
+	text-decoration: none;
+	color: inherit;
+}
 /* Made this specifically for the scheduling page. */
-.section img{
+.fill-width{
 	width: 100%;
 }
