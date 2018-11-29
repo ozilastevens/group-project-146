@@ -1,7 +1,12 @@
 function handleFormSubmit(event){
 	event.preventDefault();
 	if (validate()){
-		document.querySelector('#content').innerHTML = 'TEST';
+		let form = document.querySelector('.section .section');
+		form.innerHTML = '';
+
+		let h2 = document.createElement('h2');
+		h2.innerHTML = 'Thank you for requesting more information!';
+		form.appendChild(h2);
 	}
 }
 
