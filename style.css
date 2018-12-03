@@ -286,3 +286,6 @@ input[type=number]::-webkit-outer-spin-button {
 .schedules .fake-inner {
 	height: auto;
 }
+.centered{
+	text-align: center;
+}

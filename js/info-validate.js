@@ -7,6 +7,7 @@ function handleFormSubmit(event){
 		let h2 = document.createElement('h2');
 		h2.innerHTML = 'Thank you for requesting more information!';
 		form.appendChild(h2);
+		form.classList.add('centered');
 	}
 }
 
