@@ -41,7 +41,7 @@ function validate(){
 	return true;
 }
 
-window.onload = () => {
+window.addEventListener('load', function() {
    // Once our window is loaded, we add the event listener for our post form
    document.querySelector('form').addEventListener('submit', handleFormSubmit);
-};
+});
